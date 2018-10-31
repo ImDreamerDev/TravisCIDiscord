@@ -9,13 +9,13 @@ echo -e "[Webhook]: Sending webhook to Discord...\\n";
 case $1 in
   "success" )
     EMBED_COLOR=3066993
-    STATUS_MESSAGE="Passed"
+    STATUS_MESSAGE="Everything is PepeOk"
     AVATAR="https://cdn.frankerfacez.com/emoticon/251776/4"
     ;;
 
   "failure" )
     EMBED_COLOR=15158332
-    STATUS_MESSAGE="Failed"
+    STATUS_MESSAGE="Reeeeee"
     AVATAR="https://t4.rbxcdn.com/3473e750e82f58a7cda3a6e930497e2e"
     ;;
 
